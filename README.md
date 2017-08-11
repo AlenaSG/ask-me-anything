@@ -1,7 +1,24 @@
 # ask-me-anything
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## Description
+
+This is a website similar to Crowd Sourced, Reddit/Quora Style Message Board for Senior Developers & Tech Pros
+
+The goal was to create a question and answer message board, similar to Reddit, Quora, StackOverflow or other such sites. Users should be able to submit a question, then other users can respond with answers.
+
+The message board allows junior developers and newbies learning to code to ask questions that senior developers, product owners, senior designers, recruiters, and other tech professionals can answer.
+
+You're welcome to further refine the audience your specific message board serves, too. (For example, your message board's community could focus on: Students who have less than a year experience, tech pros who are people of color, LGBTQ, rural coders, Portland or Seattle area only, students over the age of 40, those learning specific languages or technologies, etc.)
+
+##User Stories
+
+Questions should include the content of the question itself, an author, and additional notes.
+Answers should include the content of the answer and the author.
+Include a header and/or navbar that appears on all pages. It should contain the name of your site and a link to the home page, and other content such as social media, LinkedIn, etc.
+List all questions on the homepage, displaying only the question and the name of the author.
+Allow users to click a question, to be routed to another page containing additional information and question details.
+Allow users to add and edit questions.
+Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 
 ## Prerequisites
 
