@@ -1,23 +1,19 @@
 import Ember from 'ember';
 
-var rentals = [{
+var questions = [{
   id: 1,
-  owner: "Veruca Salt",
-  city: "San Francisco",
-  type: "Estate",
-  bedrooms: 15,
-  image: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  author: "David Copkin",
+  content: "How do you start an app with Ember?",
+  notes: "I'm new to programming and I need some guidance."
 }, {
-  id: 2,
-  owner: "Mike TV",
-  city: "Seattle",
-  type: "Condo",
-  bedrooms: 1,
-  image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  id: 1,
+  author: "Cindy Williams",
+  content: "Has anyone resolved this kind of error?",
+  notes: "Not found. 404"
 }];
 
 export default Ember.Route.extend({
   model() {
-    return rentals;
+    return questions;
   },
 });

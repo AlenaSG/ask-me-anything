@@ -1,6 +1,13 @@
-<h1> Welcome to Super Rentals </h1>
+<h1> Welcome to Ask me anything! </h1>
 
 <p>We hope you find exactly what you're looking for in a place to stay.</p>
 
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.author}}'s question:  {{question.content}}</li>
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About{{/link-to}}
+
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
