@@ -3,13 +3,23 @@
 <p>We hope you find exactly what you're looking for to help you develop better software.</p>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
    {{question-tile question=question}}
   {{/each}}
 </ul>
 
 {{new-question saveQuestion="saveQuestion"}}
 
-{{#link-to 'about'}}About{{/link-to}}
+<h2> All Answers </h2>
 
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.content}} - by {{answer.author}}</li>
+  {{/each}}
+</ul>
+
+{{new-answer saveAnswer="saveAnswer"}}
+
+{{#link-to 'about'}}About |{{/link-to}}
+
+{{#link-to 'contact'}}Contact{{/link-to}}

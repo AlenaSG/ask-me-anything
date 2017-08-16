@@ -8,5 +8,12 @@
   "author": "Cindy Williams",
   "content": "Has anyone resolved this kind of error?",
   "notes": "Not found. 404"
-}]
+}],
+"answers": [{
+   "author": "Andrea",
+   "content": "Please read the manual."
+ }, {
+   "author": "Alex",
+   "content": "It's the most common error for junior developers."
+ }]
 }
