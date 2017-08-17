@@ -23,7 +23,7 @@ The message board allows junior developers and newbies learning to code to ask q
 * Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 
 ## Code Specifications
-||Behavior-Plain English| Input|	Output|
+|Behavior-Plain English| Input|	Output|
 |---|---|---|
 |User inputs their question, notes and name into the fields on the front page and submits with a click on a button.|"How do you solve this?" - "I need help." - "Alice", submit.|The user's submitted question appears on the page and the form hides while the button "Ask a New Question" is displayed.|
 |User clicks on the question and is able to go to the question's detal page|Click on a question| Go to the question detail page.|
