@@ -1,6 +1,8 @@
-<h1> Welcome to Ask Me Anything! </h1>
+<h2> Welcome to Ask Me Anything! </h2>
 
 <p>We hope you find exactly what you're looking for to help you develop better software.</p>
+
+<p>Trending questions:</p>
 
 <ul>
   {{#each model.questions as |question|}}
@@ -10,15 +12,7 @@
 
 {{new-question saveQuestion="saveQuestion"}}
 
-<h2> All Answers </h2>
 
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>{{answer.content}} - by {{answer.author}}</li>
-  {{/each}}
-</ul>
-
-{{new-answer saveAnswer="saveAnswer"}}
 
 {{#link-to 'about'}}About |{{/link-to}}
 

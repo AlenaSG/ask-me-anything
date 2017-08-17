@@ -1,0 +1,11 @@
+h2 {
+  color: gray;
+  shadow: black: 3px;
+}
+
+.buttonColor {
+  background-color: #dee7f4;
+  color: #1d427f;
+  border: 1px solid;
+  border-radius: 5px;
+}

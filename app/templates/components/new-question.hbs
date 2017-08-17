@@ -17,9 +17,9 @@
       {{textarea value=notes id="notes"}}
     </div>
 
-    <button {{action 'saveQuestion'}}>Submit Your Question</button>
+    <button class="buttonColor" {{action 'saveQuestion'}}>Submit Your Question</button>
   </form>
 </div>
 {{else}}
-  <button {{action 'questionFormShow'}}>Ask a New Question</button>
+  <button class="buttonColor" {{action 'questionFormShow'}}>Ask a New Question</button>
 {{/if}}

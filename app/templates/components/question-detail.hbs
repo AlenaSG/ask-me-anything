@@ -1,5 +1,15 @@
+<br>
+<button class="buttonColor" {{action 'delete' question}}>Delete Question</button>
+<br>
 {{question.author}}'s question {{question.content}}<br>
-{{question.notes}}
+<p>Additional notes: {{question.notes}}</p>
 <br>
 
-<button {{action 'delete' question}}>Delete Question</button>
+
+
+<h2> Answers </h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  {{/each}}
+</ul>
